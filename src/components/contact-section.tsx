@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/button";
 import { cn } from "@/src/lib/utils";
 import { PhoneCallIcon } from "lucide-react";
 
