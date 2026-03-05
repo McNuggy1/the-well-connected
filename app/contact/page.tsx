@@ -30,8 +30,8 @@ export default function ContactPage() {
             </FadeUp>
             <FadeUp delay={0.1}>
               <p className="text-lg md:text-xl text-black/80 mb-14 max-w-lg">
-                Have a project in mind? We'd love to hear from you. Share your
-                vision and we'll get back to you within 24 hours.
+                Have a project in mind? We&apos;d love to hear from you. Share your
+                vision and we&apos;ll get back to you within 24 hours.
               </p>
             </FadeUp>
             <FadeUp delay={0.15}>
@@ -88,7 +88,7 @@ export default function ContactPage() {
                     Thank you.
                   </p>
                   <p className="text-lg text-black/80">
-                    We've received your message and will be in touch soon.
+                    We&apos;ve received your message and will be in touch soon.
                   </p>
                 </motion.div>
               ) : (

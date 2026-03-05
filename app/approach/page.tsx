@@ -80,7 +80,7 @@ export default function ApproachPage() {
         <div className="max-w-3xl">
           <MotionInView>
             <p className="font-display text-3xl md:text-4xl leading-tight text-black">
-              From first conversation to final recap, we're with you every step
+              From first conversation to final recap, we&apos;re with you every step
               of the way—ensuring your brand connects in ways that matter.
             </p>
           </MotionInView>
