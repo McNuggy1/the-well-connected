@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/src/lib/utils";
 import { Button } from "@/components/ui/button";
 import { RocketIcon, ArrowRightIcon, PhoneCallIcon } from "lucide-react";
 import { LogoCloud } from "@/components/ui/logo-cloud-3";

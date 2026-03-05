@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { cn } from "@/src/lib/utils";
 import { PhoneCallIcon } from "lucide-react";
 
 export function ContactSection() {

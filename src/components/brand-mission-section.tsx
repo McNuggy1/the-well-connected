@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/src/lib/utils";
 
 const SECTION_STYLE = "mx-auto max-w-3xl px-4 py-16 md:py-24";
 
