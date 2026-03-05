@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --lavender: #ada8d3;
+  --lime: #c9db32;
+  --wistful: #ada8d3;
+  --las-palmas: #c9db32;
+  --alabaster: #eeece1;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-lavender: #0f0f12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-body antialiased;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* Container: max-width 1200px, margin auto */
+.container-tight {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section padding: 120px top/bottom */
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* Typography — strong contrast on dark */
+.headline-hero {
+  @apply font-display leading-[1.05] tracking-tight;
+  font-size: clamp(2.5rem, 5vw, 4.5rem); /* 64–72px range */
+}
+
+.headline-section {
+  @apply font-display leading-tight;
+  font-size: clamp(1.875rem, 3vw, 2.625rem); /* 36–42px */
+}
+
+.body-text {
+  @apply leading-relaxed;
+  font-size: 18px;
+}
+
+.sub-text {
+  font-size: 16px;
+}
+
+.headline-xl {
+  @apply font-display text-6xl md:text-7xl leading-[1.05] tracking-tight;
+}
+
+.headline-lg {
+  @apply font-display text-4xl md:text-5xl leading-[1.1] tracking-tight;
+}
+
+.headline-md {
+  @apply font-display text-3xl md:text-4xl leading-tight;
+}
+
+.headline-sm {
+  @apply font-display text-xl md:text-2xl leading-snug;
+}
+
+.body-lg {
+  @apply text-lg md:text-xl leading-relaxed;
+}
+
+.body-md {
+  @apply text-base md:text-lg leading-relaxed;
+}
+
+.body-sm {
+  @apply text-sm md:text-base leading-relaxed;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--lime);
+  color: var(--black);
+}
