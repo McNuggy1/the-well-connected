@@ -9,7 +9,7 @@ type SectionProps = {
   innerClassName?: string;
 };
 
-const bgMap: Record<SectionProps["background"], string> = {
+const bgMap: Record<NonNullable<SectionProps["background"]>, string> = {
   white: "bg-white text-black",
   alabaster: "bg-alabaster text-black",
   wistful: "bg-wistful text-black",
